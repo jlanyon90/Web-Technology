@@ -8,7 +8,7 @@ body{
 header{
 	width: auto;
 	height: 50px;
-	background-color: #ffec8b;
+	background-color: #FFEC8b;
 	border-radius: 15px;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -30,7 +30,7 @@ a:visited {
 		text-decoration: underline;
 }
 a:hover {
-		color: #FFFFFF;
+		color: #FFEC8b;
 		background-color: transparent;
 		text-decoration: underline;
 }
