@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #754719;
+}
+header{
+	width: auto;
+	height: 50px;
+	background-color: #ffec8b;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: xx-large;
+	font-family: fantasy;
+	border-style: solid;
+}
+
+a:link{
+	color: #000000;
+	background-color: transparent;
+	text-decoration: underline;
+	font-size: large;
+}
+a:visited {
+		color: #FFFFFF;
+		background-color: transparent;
+		text-decoration: underline;
+}
+a:hover {
+		color: red;
+		background-color: transparent;
+		text-decoration: underline;
+}
+
+h1{
+	text-align: center;
+	font-size: xx-large;
+}
+h2{
+	text-align: center;
+	font-size: xx-large;
+	text-decoration: underline;
+	font-style: italic;
+}
+h3{
+	text-align: center;
+	font-size: xx-large;
+	text-decoration: underline;
+	font-style: italic;
+}
+h4{
+	text-align: center;
+	font-size: xx-large;
+	text-decoration: underline;
+	font-style: italic;
+}
+h5{
+	text-align: center;
+	font-size: xx-large;
+	text-decoration: underline;
+	font-style: italic;
+}
+#wrapper{
+	width: auto;
+	margin: 0 auto 0 auto;
+}
+#content{
+	width: auto;
+	height: 1203px;
+}
+#Standards{
+	float: left;
+	border-radius: 15px;
+	margin: 10px;
+	width:22%;
+	height: 1173px;
+	background-color: #ABA9BF;
+	border-style: solid;
+	font-size: large;
+}
+#standardsIntro{
+	padding-top: 50px;
+	padding-bottom: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+	border-style: solid;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+}
+#cssStandards{
+	padding: 50px;
+	text-align: center;
+	border-style: solid;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+}
+#htmlStandards{
+	padding: 50px;
+	text-align: center;
+}
+#Tutorials{
+	float: right;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 74%;
+	height: 380px;
+	background-color: #ABA9BF;
+	border-style: solid;
+}
+#tut1{
+	text-align: left;
+	padding: 15px;
+	font-size: small;
+}
+#tut{
+	text-align: left;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: small;
+}
+#Examples{
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	width: 74%;
+	height: 380px;
+	background-color: #ABA9BF;
+	border-style: solid;
+}
+#ex{
+	text-align: center;
+	font-size: large;
+	padding: 15px;
+}
+#BrowserProblems{
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	float: right;
+	width: 74%;
+	height: 380px;
+	background-color: #ABA9BF;
+	border-style: solid;
+}
+footer{
+	border-radius: 15px;
+	width: auto;
+	height: 30px;
+	background-color: #ABA9BF;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	font-size: large;
+	border-style: solid;
+}
+#names{
+	float: left;
+	width: 33%;
+	text-align: center;
+	font-size: x-large;
+	text-decoration: underline;
+	font-style: italic;
+}
