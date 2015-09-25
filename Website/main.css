@@ -18,20 +18,19 @@ header{
 	font-family: fantasy;
 	border-style: solid;
 }
-
 a:link{
-	color: #000000;
+	color: #FFFFFF;
 	background-color: transparent;
 	text-decoration: underline;
 	font-size: large;
 }
 a:visited {
-		color: #FFFFFF;
+		color: #000000;
 		background-color: transparent;
 		text-decoration: underline;
 }
 a:hover {
-		color: red;
+		color: #FFFFFF;
 		background-color: transparent;
 		text-decoration: underline;
 }
@@ -70,14 +69,14 @@ h5{
 }
 #content{
 	width: auto;
-	height: 1203px;
+	height: 1200px;
 }
 #Standards{
 	float: left;
 	border-radius: 15px;
 	margin: 10px;
 	width:22%;
-	height: 1173px;
+	height: 1170px;
 	background-color: #ABA9BF;
 	border-style: solid;
 	font-size: large;
