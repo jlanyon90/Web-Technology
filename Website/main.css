@@ -3,65 +3,64 @@
 	padding: 0;
 }
 body{
-	background-color: #754719;
+	background-color: #eaeaea;
 }
 header{
 	width: auto;
-	height: 50px;
-	background-color: #FFEC8b;
-	border-radius: 15px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
+	height: 100px;
 	text-align: center;
 	font-size: xx-large;
-	font-family: fantasy;
-	border-style: solid;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
 }
 a:link{
-	color: #FFFFFF;
+	color: #5C6B73;
 	background-color: transparent;
 	text-decoration: underline;
 	font-size: large;
 }
 a:visited {
-		color: #000000;
+		color: #9DB4C0;
 		background-color: transparent;
 		text-decoration: underline;
 }
 a:hover {
-		color: #FFEC8b;
+		color: #9DB4C0;
 		background-color: transparent;
 		text-decoration: underline;
 }
 
 h1{
 	text-align: center;
-	font-size: xx-large;
+	font-size: 1.75em;
+	text-transform: uppercase;
+	line-height: 100%;
+	font-family: 'Open Sans', sans-serif;
 }
 h2{
 	text-align: center;
-	font-size: xx-large;
-	text-decoration: underline;
-	font-style: italic;
+	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 150%;
+	text-transform: uppercase;
+	color: #253237;
 }
 h3{
 	text-align: center;
 	font-size: xx-large;
-	text-decoration: underline;
-	font-style: italic;
+	font-family: 'Lato', sans-serif;
+	
 }
 h4{
 	text-align: center;
 	font-size: xx-large;
-	text-decoration: underline;
-	font-style: italic;
+	font-family: 'Lato', sans-serif;
 }
 h5{
 	text-align: center;
 	font-size: xx-large;
 	text-decoration: underline;
-	font-style: italic;
+	font-family: 'Lato', sans-serif;
 }
 #wrapper{
 	width: auto;
@@ -73,13 +72,11 @@ h5{
 }
 #Standards{
 	float: left;
-	border-radius: 15px;
-	margin: 10px;
-	width:22%;
+	padding: 10px;
+	width:33%;
 	height: 1170px;
-	background-color: #ABA9BF;
-	border-style: solid;
 	font-size: large;
+	background-color: #F0544F;
 }
 #standardsIntro{
 	padding-top: 50px;
@@ -106,35 +103,53 @@ h5{
 }
 #Tutorials{
 	float: right;
-	border-radius: 15px;
-	margin-top: 10px;
-	margin-right: 10px;
-	width: 74%;
-	height: 380px;
-	background-color: #ABA9BF;
-	border-style: solid;
-}
-#tut1{
-	text-align: left;
 	padding: 15px;
-	font-size: small;
-}
-#tut{
-	text-align: left;
-	padding-bottom: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
-	font-size: small;
-}
-#Examples{
-	border-radius: 15px;
-	margin-top: 10px;
-	margin-right: 10px;
-	float: right;
-	width: 74%;
+	width: 63%;
 	height: 380px;
-	background-color: #ABA9BF;
-	border-style: solid;
+	line-height: 150%;
+}
+#tut-1{
+	float: left;
+	clear: left;
+	width: 30%;
+	display: block;
+	padding: 10px;
+}
+
+#tut-2{
+	float: left;
+	width: 30%;
+	display: inline-block;
+	padding: 10px;
+}
+
+#tut-3{
+	float: left;
+	width: 30%;
+	display: inline-block;
+	padding: 10px;
+}
+
+#tut-4{
+	float: left;
+	clear: left;
+	width: 30%;
+	display: block;
+	padding: 10px;
+}
+
+#tut-5{
+	float: left;
+	width: 30%;
+	display: inline-block;
+	padding: 10px;
+}
+
+#Examples{
+	float: right;
+	padding: 15px;
+	width: 63%;
+	height: 380px;
 }
 #ex{
 	text-align: center;
@@ -142,26 +157,21 @@ h5{
 	padding: 15px;
 }
 #BrowserProblems{
-	border-radius: 15px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 10px;
 	float: right;
-	width: 74%;
+	padding: 15px;
+	width: 63%;
 	height: 380px;
-	background-color: #ABA9BF;
-	border-style: solid;
+
 }
 footer{
-	border-radius: 15px;
+
 	width: auto;
 	height: 30px;
-	background-color: #ABA9BF;
 	margin-left: 10px;
 	margin-right: 10px;
 	text-align: center;
 	font-size: large;
-	border-style: solid;
+
 }
 #names{
 	float: left;
